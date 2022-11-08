@@ -17,5 +17,15 @@ html, body {
 
 .contact_img:hover {
     opacity: .5;
+    transform: scale(1.05);
+}
+
+.section {
+    min-height: 500px;
+    margin: 30px;
+}
+
+.carousel-item:hover {
+    opacity: .5;
     transform: scale(1.2);
 }
