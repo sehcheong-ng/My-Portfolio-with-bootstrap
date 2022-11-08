@@ -21,31 +21,39 @@
     <title>Document</title>
 </head>
 <body style="background-color: #555;">
-    <header class="jumbotron">
-        <img src="images/cat-avatar.png" alt="">
-        <h1>Seh-Cheong NG</h1>
-        <nav>
-            <a href="">About Me</a>
-            <a href="">Work</a>
-            <a href="">Contact Me</a>
-            <a href="">Resume</a>
-        </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" align="center">
+                <img src="images/cat-avatar.png" alt="">
+            </div>
+            <div class="col-md-3" align="center">
+                <h1>Seh-Cheong NG</h1>
+            </div>
+            <div class="col-md-6" align="center">
+                <nav>
+                    <a href="">About Me</a>
+                    <a href="">Work</a>
+                    <a href="">Contact Me</a>
+                    <a href="">Resume</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <section class="container-fluid">
         <div class="row">
-            <h1 class="col col-sm-2 border-right">About</h1>
-            <p class="col col-sm-10">Hi, I'm Seh Cheong NG, and I graduated from the University of Birmingham in 2015 with a degree in Life Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences. I previously worked at Company X, where I led the XYZ project. XYZ was a service for companies to make urban transportation expenses convenient. Companies can create employee groups, set ride policies, and share corporate payment methods with their employees. I built the project with two other engineers over the period of three months using Python and SQL. I'm interested in the Front End Engineer role at Company XYZ because I like working in this ridesharing space and creating products to improve the lives of users.</p>
+            <h1 class="col col-md-2 border-right">About</h1>
+            <p class="col col-md-10">Hi, I'm Seh Cheong NG, and I graduated from the University of Birmingham in 2015 with a degree in Life Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences. I previously worked at Company X, where I led the XYZ project. XYZ was a service for companies to make urban transportation expenses convenient. Companies can create employee groups, set ride policies, and share corporate payment methods with their employees. I built the project with two other engineers over the period of three months using Python and SQL. I'm interested in the Front End Engineer role at Company XYZ because I like working in this ridesharing space and creating products to improve the lives of users.</p>
         </div>
     </section>
 
 
     <section class="container-fluid">
         <div class="row">
-            <div class="col col-sm-2">
+            <div class="col col-md-2">
                 <h1>Work</h1>
             </div>
-            <div class="col col-sm-10">
+            <div class="col col-md-10">
                 <div id="mainCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -90,8 +98,8 @@
 
     <section class="container-fluid">
         <div class="row">
-            <h1 class="col col-sm-2">Contact</h1>
-            <div class="col-sm-10 container-fluid">
+            <h1 class="col col-md-2">Contact</h1>
+            <div class="col-md-10 container-fluid">
                 <a href="https://github.com/sehcheong-ng" target="_blank">
                     <img class="contact_img" src="./images/github_logo.png" alt="github"
                     width="150" height="100">
@@ -127,8 +135,8 @@
 
     <section class="container-fluid">
         <div class="row">
-            <h1 class="col col-sm-2 border-right">Resume</h1>
-            <p class="col col-sm-10">Job Searching Web Service, MEAN Stack
+            <h1 class="col col-md-2 border-right">Resume</h1>
+            <p class="col col-md-10">Job Searching Web Service, MEAN Stack
                 July 2018October 2018
                 Implemented the Job Searching Web Service with NodeJS, MongoDB, Angular 5, NGRX and Bootstrap. Integrated the user authentication with Github Oauth2 apps to support third-party accounts login.
                 TensorFlow based Image Recognition and Translation System
