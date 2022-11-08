@@ -9,6 +9,7 @@ html, body {
 .carousel-inner {
     width:100%;
     max-height: 400px !important;
+    border-radius: 5%;
 }
 
 .contact_img {
@@ -17,7 +18,7 @@ html, body {
 
 .contact_img:hover {
     opacity: .5;
-    transform: scale(1.05);
+    transform: scale(1.5);
 }
 
 .section {
@@ -27,5 +28,10 @@ html, body {
 
 .carousel-item:hover {
     opacity: .5;
-    transform: scale(1.2);
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    background-color: aqua;
+    padding: 50px;
 }
