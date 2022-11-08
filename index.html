@@ -20,7 +20,7 @@
 
     <title>Document</title>
 </head>
-<body style="background-color: #555;">
+<body>
     <header class="container-fluid">
         <div class="row">
             <div class="col-md-3 d-flex align-items-center">
@@ -60,16 +60,16 @@
                         <div class="carousel-item active">
                             <a target="_blank" id="a1" href="https://sehcheong-ng.github.io/jakes-eatery-activity-/">
                                 <img class="d-block w-100 h-100" src="./images/jake_eatery.png" alt="Work Project 1">
+                                <div class="carousel-caption d-flex flex-column justify-content-start align-items-start" style="top: 0">
+                                    <h1>Jake's Eatery</h1>
+                                    <h3>Order delicious food!</h3>
+                                </div>
                             </a>
-                            <span class="carousel-caption d-flex flex-column justify-content-center align-items-start h-50" style="top: 0">
-                                <h1>Jake's Eatery</h1>
-                                <h3>Order delicious food!</h3>
-                            </span>
                         </div>
                         <div class="carousel-item" id="a2">
                             <a target="_blank"  href="https://sehcheong-ng.github.io/Challenge_1/">
                                 <img class="d-block w-100 h-100" class="d-block w-100" src="./images/Horiseon.png" alt="Work Project 2">
-                                <div class="carousel-caption d-flex flex-column justify-content-center h-50" style="top: 0">
+                                <div class="carousel-caption d-flex flex-column justify-content-start align-items-start" style="top: 0">
                                     <h1>Horiseon page</h1>
                                     <h3>Cool SEO website</h3>
                                 </div>
@@ -78,7 +78,7 @@
                         <div class="carousel-item">
                             <a target="_blank" id="a3" href="https://sehcheong-ng.github.io/prework-study-guide/">
                                 <img class="d-block w-100 h-100" src="./images/Prework.png" alt="Work Project 3">
-                                <div class="carousel-caption d-flex flex-column justify-content-center h-50" style="top: 0">
+                                <div class="carousel-caption d-flex flex-column justify-content-start align-items-start" style="top: 0">
                                     <h1>Prework Study</h1>
                                     <h3>What to study?</h3>
                                 </div>
@@ -86,8 +86,8 @@
                         </div>
                         <div class="carousel-item">
                             <a target="_blank" id="a4" href="#">
-                                <img class="d-block w-100" src="./images/02-portfolio-4.jpg" alt="Work Project 4">
-                                <div class="carousel-caption d-flex flex-column justify-content-center h-50" style="top: 0">
+                                <img class="d-block w-100" src="./images/02-portfolio-3.jpg" alt="Work Project 4">
+                                <div class="carousel-caption d-flex flex-column justify-content-start align-items-start" style="top: 0">
                                     <h1>Coming Soon!</h1>
                                     <h3>More to come!</h3>
                                 </div>
@@ -96,7 +96,7 @@
                         <div class="carousel-item">
                             <a target="_blank" id="a5" href="#">
                                 <img class="d-block w-100" src="./images/02-portfolio-2.jpg" alt="Work Project 5">
-                                <div class="carousel-caption d-flex flex-column justify-content-center h-50" style="top: 0">
+                                <div class="carousel-caption d-flex flex-column justify-content-start align-items-start" style="top: 0">
                                     <h1>Coming Soon2!</h1>
                                     <h3>My future project?</h3>
                                 </div>
@@ -119,37 +119,43 @@
 
     <section class="section container-fluid" id="Contact">
         <div class="row">
-            <h1 class="col-md-2">Contact</h1>
+            <div class="col-md-2">
+                <h1>Contact</h1>
+            </div>
             <div class="col-md-10 container-fluid d-flex justify-content-around">
-                <a href="https://github.com/sehcheong-ng" target="_blank">
-                    <img class="contact_img" src="./images/github_logo.png" alt="github"
-                    width="150" height="100">
-                </a>
+                <div class="container-fluid">
+                    <div class="row">
+                        <a class="col-lg-2 col-md-3 col-sm-4" href="https://github.com/sehcheong-ng" target="_blank">
+                            <img class="contact_img" src="./images/github_logo.png" alt="github"
+                            width="auto" height="100">
+                        </a>
 
-                <a href="#">
-                    <img class="contact_img" src="./images/linkedin.png" alt="linkedin"
-                    width="150" height="100">
-                </a>
+                        <a class="col-lg-2 col-md-3 col-sm-4" href="#">
+                            <img class="contact_img" src="./images/linkedin.png" alt="linkedin"
+                            width="auto" height="100">
+                        </a>
 
-                <a href="#">
-                    <img class="contact_img" src="./images/twitter.png" alt="twitter"
-                    width="100" height="100">
-                </a>
+                        <a class="col-lg-2 col-md-3 col-sm-4" href="#">
+                            <img class="contact_img" src="./images/twitter.png" alt="twitter"
+                            width="auto" height="100">
+                        </a>
 
-                <a href="#">
-                    <img class="contact_img" src="./images/facebook.png" alt="facebook"
-                    width="100" height="100">
-                </a>
+                        <a class="col-lg-2 col-md-3 col-sm-4" href="#">
+                            <img class="contact_img" src="./images/facebook.png" alt="facebook"
+                            width="auto" height="100">
+                        </a>
 
-                <a href="#">
-                    <img class="contact_img" src="./images/insta.jpeg" alt="instagram"
-                    width="100" height="100">
-                </a>
+                        <a class="col-lg-2 col-md-3 col-sm-4" href="#">
+                            <img class="contact_img" src="./images/insta.jpeg" alt="instagram"
+                            width="auto" height="100">
+                        </a>
 
-                <a href="mailto:abc@gmail.com">
-                    <img class="contact_img" src="./images/email.png" alt="email"
-                    width="100" height="100">
-                </a>
+                        <a class="col-lg-2 col-md-3 col-sm-4" href="mailto:abc@gmail.com">
+                            <img class="contact_img" src="./images/email.png" alt="email"
+                            width="auto" height="100">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -157,14 +163,14 @@
     <section class="section container-fluid" id="Resume">
         <div class="row">
             <h1 class="col-md-2 border-right">Resume</h1>
-            <h5 class="col-md-10">Job Searching Web Service, MEAN Stack
+            <h4 class="col-md-10">Job Searching Web Service, MEAN Stack
                 July 2018October 2018
                 Implemented the Job Searching Web Service with NodeJS, MongoDB, Angular 5, NGRX and Bootstrap. Integrated the user authentication with Github Oauth2 apps to support third-party accounts login.
                 TensorFlow based Image Recognition and Translation System
                 February 2018June 2018
                 Developed the system with NodeJS, TensorFlow, Scikit-learn for image-to-image translation. Preprocessed the images with scikit-learn to generate training data, used Numpy, Scipy for data processing.
                 Implemented a conditional GAN with TensorFlow and trained with GPU on Google Cloud Platform, achieved 99% test accuracy.
-            </h5>
+            </h4>
         </div>
     </section>
     </main>

@@ -2,6 +2,10 @@ html, body {
     height: 100%;
   }
 
+body {
+    background-color: #ADD8E6;
+}
+
 .container-fluid {
     min-height: 20%;
 }
@@ -32,6 +36,12 @@ html, body {
 }
 
 .carousel-caption {
-    background-color: aqua;
-    padding: 50px;
+    color: yellow;
+    padding-top: 40px;
+}
+
+@media (max-width: 1300px) {
+    body {
+        background-color: rgb(238, 175, 57);
+        }
 }
