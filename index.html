@@ -23,37 +23,37 @@
 <body style="background-color: #555;">
     <header class="container-fluid">
         <div class="row">
-            <div class="col-md-3" align="center">
+            <div class="col-md-3 d-flex align-items-center">
                 <img src="images/cat-avatar.png" alt="">
             </div>
-            <div class="col-md-3" align="center">
+            <div class="col-md-3 d-flex align-items-center">
                 <h1>Seh-Cheong NG</h1>
             </div>
-            <div class="col-md-6" align="center">
-                <nav>
-                    <a href="">About Me</a>
-                    <a href="">Work</a>
-                    <a href="">Contact Me</a>
-                    <a href="">Resume</a>
-                </nav>
+            <div class="col-md-6 d-flex align-items-center justify-content-around">
+                <!-- <nav> -->
+                    <a href="#About"><h2>About Me</h2></a>
+                    <a href="#Work"><h2>Work</h2></a>
+                    <a href="#Contact"><h2>Contact Me</h2></a>
+                    <a href="#Resume"><h2>Resume</h2></a>
+                <!-- </nav> -->
             </div>
         </div>
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="About">
         <div class="row">
-            <h1 class="col col-md-2 border-right">About</h1>
-            <p class="col col-md-10">Hi, I'm Seh Cheong NG, and I graduated from the University of Birmingham in 2015 with a degree in Life Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences. I previously worked at Company X, where I led the XYZ project. XYZ was a service for companies to make urban transportation expenses convenient. Companies can create employee groups, set ride policies, and share corporate payment methods with their employees. I built the project with two other engineers over the period of three months using Python and SQL. I'm interested in the Front End Engineer role at Company XYZ because I like working in this ridesharing space and creating products to improve the lives of users.</p>
+            <h1 class="col-md-2 border-right">About</h1>
+            <h4 class="col-md-10">Hi, I'm Seh Cheong NG, and I graduated from the University of Birmingham in 2015 with a degree in Life Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences. I previously worked at Company X, where I led the XYZ project. XYZ was a service for companies to make urban transportation expenses convenient. Companies can create employee groups, set ride policies, and share corporate payment methods with their employees. I built the project with two other engineers over the period of three months using Python and SQL. I'm interested in the Front End Engineer role at Company XYZ because I like working in this ridesharing space and creating products to improve the lives of users.</h4>
         </div>
     </section>
 
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="Work">
         <div class="row">
-            <div class="col col-md-2">
+            <div class="col-md-2">
                 <h1>Work</h1>
             </div>
-            <div class="col col-md-10">
+            <div class="col-md-10">
                 <div id="mainCarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -96,9 +96,9 @@
     </section>
 
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="Contact">
         <div class="row">
-            <h1 class="col col-md-2">Contact</h1>
+            <h1 class="col-md-2">Contact</h1>
             <div class="col-md-10 container-fluid">
                 <a href="https://github.com/sehcheong-ng" target="_blank">
                     <img class="contact_img" src="./images/github_logo.png" alt="github"
@@ -133,17 +133,17 @@
         </div>
     </section>
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="Resume">
         <div class="row">
-            <h1 class="col col-md-2 border-right">Resume</h1>
-            <p class="col col-md-10">Job Searching Web Service, MEAN Stack
+            <h1 class="col-md-2 border-right">Resume</h1>
+            <h5 class="col-md-10">Job Searching Web Service, MEAN Stack
                 July 2018October 2018
                 Implemented the Job Searching Web Service with NodeJS, MongoDB, Angular 5, NGRX and Bootstrap. Integrated the user authentication with Github Oauth2 apps to support third-party accounts login.
                 TensorFlow based Image Recognition and Translation System
                 February 2018June 2018
                 Developed the system with NodeJS, TensorFlow, Scikit-learn for image-to-image translation. Preprocessed the images with scikit-learn to generate training data, used Numpy, Scipy for data processing.
                 Implemented a conditional GAN with TensorFlow and trained with GPU on Google Cloud Platform, achieved 99% test accuracy.
-            </p>
+            </h5>
         </div>
     </section>
 
